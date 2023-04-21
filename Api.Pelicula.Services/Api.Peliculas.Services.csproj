@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Api.Pelicula.Data\Api.Peliculas.Data.csproj" />
+    <ProjectReference Include="..\Api.Pelicula.Entities\Api.Peliculas.Entities.csproj" />
+    <ProjectReference Include="..\Api.Pelicula.IServices\Api.Peliculas.IServices.csproj" />
+    <ProjectReference Include="..\Api.Pelicula.Logic\Api.Peliculas.Logic.csproj" />
+    <ProjectReference Include="..\Api.Pelicula.Repository\Api.Peliculas.Repository.csproj" />
+    <ProjectReference Include="..\Api.Pelicula.ViewModel\Api.Peliculas.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FMlqpUGXCdiRnsrbF+hf7WJsKJw6dr19I5GlbcGAH6aplKoNyCrb0jymT6KbTNTDbkgXMwKiIOFgNOdEsv3bcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jdelvallet\\Desktop\\APIPELICULAS\\Api.Pelicula.ViewModel\\Api.Peliculas.ViewModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jdelvallet\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

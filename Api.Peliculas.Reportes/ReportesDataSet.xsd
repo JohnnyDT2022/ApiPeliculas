@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportesDataSet" targetNamespace="http://tempuri.org/ReportesDataSet.xsd" xmlns:mstns="http://tempuri.org/ReportesDataSet.xsd" xmlns="http://tempuri.org/ReportesDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportesDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="ReportesDataSet" msprop:Generator_DataSetName="ReportesDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UsuarioRegistrados" msprop:Generator_RowEvHandlerName="UsuarioRegistradosRowChangeEventHandler" msprop:Generator_RowDeletedName="UsuarioRegistradosRowDeleted" msprop:Generator_RowDeletingName="UsuarioRegistradosRowDeleting" msprop:Generator_RowEvArgName="UsuarioRegistradosRowChangeEvent" msprop:Generator_TablePropName="UsuarioRegistrados" msprop:Generator_RowChangedName="UsuarioRegistradosRowChanged" msprop:Generator_RowChangingName="UsuarioRegistradosRowChanging" msprop:Generator_TableClassName="UsuarioRegistradosDataTable" msprop:Generator_RowClassName="UsuarioRegistradosRow" msprop:Generator_TableVarName="tableUsuarioRegistrados" msprop:Generator_UserTableName="UsuarioRegistrados">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UserName" msprop:Generator_ColumnPropNameInRow="UserName" msprop:Generator_ColumnPropNameInTable="UserNameColumn" msprop:Generator_ColumnVarNameInTable="columnUserName" msprop:Generator_UserColumnName="UserName" type="xs:string" minOccurs="0" />
+              <xs:element name="GenerosPreferidos" msprop:Generator_ColumnPropNameInRow="GenerosPreferidos" msprop:Generator_ColumnPropNameInTable="GenerosPreferidosColumn" msprop:Generator_ColumnVarNameInTable="columnGenerosPreferidos" msprop:Generator_UserColumnName="GenerosPreferidos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PeliculasRegistradas" msprop:Generator_RowEvHandlerName="PeliculasRegistradasRowChangeEventHandler" msprop:Generator_RowDeletedName="PeliculasRegistradasRowDeleted" msprop:Generator_RowDeletingName="PeliculasRegistradasRowDeleting" msprop:Generator_RowEvArgName="PeliculasRegistradasRowChangeEvent" msprop:Generator_TablePropName="PeliculasRegistradas" msprop:Generator_RowChangedName="PeliculasRegistradasRowChanged" msprop:Generator_RowChangingName="PeliculasRegistradasRowChanging" msprop:Generator_TableClassName="PeliculasRegistradasDataTable" msprop:Generator_RowClassName="PeliculasRegistradasRow" msprop:Generator_TableVarName="tablePeliculasRegistradas" msprop:Generator_UserTableName="PeliculasRegistradas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdPelicula" msprop:Generator_ColumnPropNameInRow="IdPelicula" msprop:Generator_ColumnPropNameInTable="IdPeliculaColumn" msprop:Generator_ColumnVarNameInTable="columnIdPelicula" msprop:Generator_UserColumnName="IdPelicula" type="xs:int" minOccurs="0" />
+              <xs:element name="NombrePelicula" msprop:Generator_ColumnPropNameInRow="NombrePelicula" msprop:Generator_ColumnPropNameInTable="NombrePeliculaColumn" msprop:Generator_ColumnVarNameInTable="columnNombrePelicula" msprop:Generator_UserColumnName="NombrePelicula" type="xs:string" minOccurs="0" />
+              <xs:element name="Generos" msprop:Generator_ColumnPropNameInRow="Generos" msprop:Generator_ColumnPropNameInTable="GenerosColumn" msprop:Generator_ColumnVarNameInTable="columnGeneros" msprop:Generator_UserColumnName="Generos" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

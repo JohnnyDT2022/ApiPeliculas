@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Api.Peliculas.IRepository/1.0.0": {
+        "dependencies": {
+          "Api.Peliculas.Entities": "1.0.0"
+        },
+        "runtime": {
+          "Api.Peliculas.IRepository.dll": {}
+        }
+      },
+      "Api.Peliculas.Entities/1.0.0": {
+        "runtime": {
+          "Api.Peliculas.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Api.Peliculas.IRepository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Api.Peliculas.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
